@@ -3,9 +3,10 @@
   "formatVersion": 1,
   "apps": {
     "urbuddy": {
-      "latest": "0.1.1",
+      "latest": "0.1.2",
       "date": "2026-11-15",
       "channel": "preview",
+      "published": true,
       "platforms": [
         "win"
       ],
@@ -15,6 +16,7 @@
       "latest": "0.6.3",
       "date": "2026-11-15",
       "channel": "preview",
+      "published": false,
       "platforms": [
         "win"
       ],
@@ -24,6 +26,7 @@
       "latest": "0.1.1",
       "date": "2026-11-15",
       "channel": "preview",
+      "published": false,
       "platforms": [
         "win"
       ],
