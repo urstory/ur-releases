@@ -1,11 +1,45 @@
 # ur 시리즈 내려받기
 
-UrAI가 만든 ur 시리즈(UrBuddy·UrZip·UrSnap 등)의 **설치 파일만** 올리는 저장소입니다. 소스 코드는 없습니다.
+ur 시리즈 앱의 **설치 파일**을 내려받는 곳입니다. 소스 코드는 여기에 없습니다.
+앱 소개와 설치 안내는 [urai.kr/apps](https://urai.kr/apps)에서 보는 것이 가장 편합니다.
 
-- 소개·설치 안내: https://urai.kr/apps
-- 설치 파일: 이 저장소의 [Releases](../../releases)
-- 파일마다 SHA-256이 함께 적혀 있습니다.
+| 앱 | 하는 일 | 소개 페이지 |
+|---|---|---|
+| UrBuddy (유어 버디) | 앱·파일·명령을 한 칸에서 찾아 실행하는 런처 | https://urai.kr/apps/urbuddy |
+| UrZip (유어집) | 결과가 보이는 압축 도구(ZIP·7z 만들기, RAR·ALZ·EGG 풀기) | https://urai.kr/apps/urzip |
+| UrSnap (유어 스냅) | 화면을 캡처하고 바로 설명을 더하는 캡처·편집 도구 | https://urai.kr/apps/ursnap |
 
-아직 코드 서명 전이라 처음 실행할 때 Windows·macOS가 경고를 띄울 수 있습니다. 안내는 https://urai.kr/apps 를 보세요.
+- 세 앱 모두 **개인·회사 구분 없이 무료**입니다.
+- 지금은 Windows 10·11(64비트)용만 있습니다. macOS용은 준비 중입니다.
+- 1.0 전의 판은 **미리보기 판**으로 표시합니다.
+
+## 받기
+
+[Releases](https://github.com/urstory/ur-releases/releases)에서 앱과 버전을 고릅니다. Release 이름은 `<앱> <버전>`, 태그는 `<앱 ID>-v<버전>`(예: `ursnap-v0.6.3`)입니다.
+
+| 파일 | 설명 |
+|---|---|
+| `<앱>-<버전>-win-x64-setup.exe` | 설치 프로그램(대부분은 이것을 받으면 됩니다) |
+| `<앱>-<버전>-win-x64-portable.zip` | 설치 없이 압축을 풀어 바로 쓰는 판 |
+| `SHA256SUMS.txt` | 파일마다 SHA-256 값 |
+
+## 받은 파일 확인하기
+
+PowerShell에서 해시를 재어 `SHA256SUMS.txt`의 값과 같은지 봅니다.
+
+```powershell
+Get-FileHash .\UrSnap-0.6.3-win-x64-setup.exe -Algorithm SHA256
+```
+
+## 처음 실행할 때 경고가 뜨면
+
+아직 코드 서명 전이라 Windows가 "Windows의 PC 보호" 같은 경고를 띄울 수 있습니다.
+넘기는 방법은 [설치 도움말](https://urai.kr/apps/install-help)에 그림과 함께 있습니다.
+
+## 앱이 읽는 최신 판 정보
+
+`releases/v1/<앱 ID>.json`에 앱마다 판 목록(버전·날짜·파일 이름·크기·SHA-256·받는 주소)이 있고, `releases/v1/index.json`에 세 앱의 최신 판이 모여 있습니다. 소개 페이지와 앱의 새 버전 알림이 이 파일을 읽습니다.
+
+---
 
 © 2026 Carami, ToTo, Esther
