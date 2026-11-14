@@ -1,0 +1,33 @@
+{
+  "format": "ur-releases-index",
+  "formatVersion": 1,
+  "apps": {
+    "urbuddy": {
+      "latest": "0.1.1",
+      "date": "2026-11-15",
+      "channel": "preview",
+      "platforms": [
+        "win"
+      ],
+      "manifest": "releases/v1/urbuddy.json"
+    },
+    "ursnap": {
+      "latest": "0.6.3",
+      "date": "2026-11-15",
+      "channel": "preview",
+      "platforms": [
+        "win"
+      ],
+      "manifest": "releases/v1/ursnap.json"
+    },
+    "urzip": {
+      "latest": "0.1.1",
+      "date": "2026-11-15",
+      "channel": "preview",
+      "platforms": [
+        "win"
+      ],
+      "manifest": "releases/v1/urzip.json"
+    }
+  }
+}
