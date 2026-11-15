@@ -16,8 +16,8 @@
           "arch": "x64",
           "kind": "setup",
           "name": "UrZip-0.1.1-win-x64-setup.exe",
-          "size": 28533824,
-          "sha256": "7c6ea7bda543ec0c8ae234a22dbf3ab33418ce683646d58c5ed8b430a714b3d9",
+          "size": 28533912,
+          "sha256": "17d383acba7b5fe25f5e36bdcbff4913c77b83e52d837cc096c2ca955bc1cf1c",
           "url": "https://github.com/urstory/ur-releases/releases/download/urzip-v0.1.1/UrZip-0.1.1-win-x64-setup.exe"
         },
         {
@@ -25,8 +25,8 @@
           "arch": "x64",
           "kind": "portable",
           "name": "UrZip-0.1.1-win-x64-portable.zip",
-          "size": 20397163,
-          "sha256": "cd442816e37424747801771d3249499d5fd40271a9e4d870f2f64ab400e8fb7e",
+          "size": 20397174,
+          "sha256": "80516056e7d5940878802ec819446b690b6b6efd8ee6a176803a22c6662bb452",
           "url": "https://github.com/urstory/ur-releases/releases/download/urzip-v0.1.1/UrZip-0.1.1-win-x64-portable.zip"
         }
       ]
