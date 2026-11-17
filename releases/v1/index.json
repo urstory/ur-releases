@@ -8,7 +8,8 @@
       "channel": "preview",
       "published": true,
       "platforms": [
-        "win"
+        "win",
+        "mac"
       ],
       "manifest": "releases/v1/urbuddy.json"
     },
@@ -18,17 +19,19 @@
       "channel": "preview",
       "published": true,
       "platforms": [
-        "win"
+        "win",
+        "mac"
       ],
       "manifest": "releases/v1/ursnap.json"
     },
     "urzip": {
-      "latest": "0.1.1",
-      "date": "2026-11-15",
+      "latest": "0.1.2",
+      "date": "2026-11-17",
       "channel": "preview",
       "published": true,
       "platforms": [
-        "win"
+        "win",
+        "mac"
       ],
       "manifest": "releases/v1/urzip.json"
     }
