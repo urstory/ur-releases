@@ -13,12 +13,11 @@
       "manifest": "releases/v1/urbuddy.json"
     },
     "ursnap": {
-      "latest": "0.6.3",
-      "date": "2026-11-15",
+      "latest": "0.6.4",
+      "date": "2026-11-18",
       "channel": "preview",
       "published": true,
       "platforms": [
-        "win",
         "mac"
       ],
       "manifest": "releases/v1/ursnap.json"
