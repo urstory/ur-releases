@@ -2,8 +2,26 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urbuddy",
-  "latest": "0.1.2",
+  "latest": "0.1.3",
   "releases": [
+    {
+      "version": "0.1.3",
+      "date": "2026-11-18",
+      "channel": "preview",
+      "published": true,
+      "notes": "macOS만 — Windows판은 다음 판에(Windows는 0.1.2 그대로). 맥 판 번호는 이제 `mac/VERSION`에 따로 둔다.\n\n### 추가 — macOS: AI·자동화로 쓰기(네 입구)\n- 메뉴 막대 UrBuddy 아이콘 메뉴에 **AI 연결** 묶음: `Claude Code에 MCP 연결`·`Claude Desktop에 MCP 연결`(연결돼 있으면 `… 연결 끊기`)·`AI·자동화로 쓰기…`. 메뉴를 열 때 지금 상태를 다시 읽어 연결된 것은 \"끊기\"만, 아닌 것은 \"연결\"만 켠다.\n- **한 번 연결하면 이 맥에 설치된 ur 앱 전부**(UrBuddy·UrSnap·UrZip …)를 Claude에서 함께 쓴다. 연결 뒤 안내: Claude Code는 새로 시작하는 세션부터(`/mcp`에 `ur`), Claude Desktop은 완전히 종료(⌘Q)했다가 다시 열면 적용.\n- 끊기 전에 확인 창 — \"끊으면 이 앱뿐 아니라 ○○도 Claude에서 함께 빠져요\". 실패하면 오류와 **설정 조각 복사** 단추·붙여 넣을 파일 위치.\n- `AI·자동화로 쓰기` 창: 연결 상태·명령줄 예시(복사)·로컬 API·화면·안내서를 한 곳에. 설정 › 정보와 런처 명령 목록(⌘K·\"MCP\"로 찾기)에서도 연다.\n- 명령 넷 `app.interfaces`·`mcp.status`·`mcp.connect`·`mcp.disconnect`(끊기는 위험 명령 — 확인 필요). 명령 182 → 186(맥 184).\n- 로컬 API `GET /v1/help`(= `app.interfaces`, 토큰 필요)와 `GET /v1`의 `help` 칸. 어디에도 토큰 값은 싣지 않는다.\n- 명령줄 `urbuddy help interfaces [--json]`(앱이 꺼져 있어도 답함)와 `urbuddy --help` 끝 \"다른 입구\".\n- 공용 ur 실행기를 앱 안(`Contents/Helpers/ur`)에 싣고, 처음 실행할 때(그리고 새 판일 때만) `~/Library/Application Support/ur/bin/ur`에 놓는다. 옛 판이 새 판을 덮지 않는다. dmg 안에서 바로 연 경우에는 놓지 않는다(응용 프로그램 폴더로 옮긴 뒤 첫 실행 때).\n- AI 도구 등록(`~/Library/Application Support/ur/registry/urbuddy.json`)에 안내서(`overview` 한·영·`ai`·`extensions`·`themes`)를 함께 싣는다.\n\n### 바뀜 — 공통(Windows·macOS)\n- 명령 이름 9개가 바뀌었다(두 낱말은 이어 쓰기): `launcher.new-window` → `launcher.newWindow`, `launcher.alias-save` → `launcher.aliasSave`, `launcher.commands-run` → `launcher.commandsRun`, `launcher.pick-folder` → `launcher.pickFolder`, `launcher.backdrop-probe` → `launcher.backdropProbe`, `settings.app-commands` → `settings.appCommands`, `settings.index-clear` → `settings.indexClear`, `settings.record-shortcut` → `settings.recordShortcut`, `system.recycle-bin` → `system.recycleBin`. **옛 이름도 당분간(2027-02-15 또는 다음 다음 버전까지) 그대로 동작**하고, 쓰면 경고를 알려 준다.\n- AI가 파일을 바꾸거나 명령을 실행하기 전에 묻는 화면의 말을 \"허락\"에서 \"허용\"으로 맞췄다(\"허용을 기다려요\", \"1건 허용 안 함\" 등 — 단추 \"한 번 허용\"과 같은 말).\n\n### 바뀜 — macOS\n- 키 표시에서 Esc를 `⎋`로 쓴다(다른 키 기호와 같은 모양).\n- 런처의 모드 줄도 글자 배율을 따르지 않는다(런처 전체가 같은 크기). 설정 창은 그대로 배율을 따른다.\n\n### 추가 — macOS(Swift로 새로 만든 첫 맥판)\n- 메뉴 막대에 상주하는 런처: 호출 키(기본 ⌘Space, Spotlight와 겹치면 ⌥Space로 바꾸는 카드)로 열고 앱·명령을 키보드로 찾아 실행한다.\n- 한글 검색: 초성(`ㅁㅁㅈ`)·겹자음·띄어쓰기 무시·부분 일치, 자주·최근 쓴 앱이 위로.\n- 실행 중인 앱은 그 창으로 전환, ⇧Enter로 새 창. 즐겨찾기·별칭·숨기기, ⌘K 명령 팝오버, ⌘/ 단축키 안내.\n- 계산(Enter로 복사), 주소·경로 열기, 웹 검색 키워드(`n 날씨` 등)와 기본 검색 엔진.\n- 파일 이름 검색: 맥 전체 디스크 범위·외장 디스크·위치/종류/수정일 조건, 바탕 화면·문서·다운로드는 허용을 받은 뒤에만.\n- 파일 본문 검색(`in ` 또는 `내용 `): 한글 1~2자도 찾고, ⌘Y로 일치한 줄 미리보기.\n- 설정 창: 테마·배경 투명도·로그인 시 실행·호출 키와 명령별 전역 키 녹화·즐겨찾기·앱 목록·웹 검색·검색 범위·정보.\n- 명령줄 도구 `urbuddy`와 AI 도구 연결(ur-agent API) — 화면에서 하는 일을 명령으로도 한다. 설정 › 정보에서 `/usr/local/bin/urbuddy` 연결.\n- 설치본: Apple Silicon·Intel 유니버설 `UrBuddy-0.1.0-mac-universal.dmg`·`.zip`·`SHA256SUMS.txt`, 앱 아이콘·메뉴 막대 아이콘.\n- AI 도구 등록: 처음 실행할 때 `~/Library/Application Support/ur/registry/urbuddy.json`에 자기 정보를 남긴다(다른 ur 도구·AI가 찾을 수 있게).\n- ur 도구 찾기·실행: \"화면 캡처\"처럼 할 일 이름으로 ur 도구를 찾고, 설치된 도구는 창 없이 띄워 바로 실행한다. 설치하지 않은 도구는 조용한 줄(최대 두 줄)로 보여 준다. 파일 행 ⌘K에 그 파일을 받는 ur 도구가 나온다.\n- 런처 안 설치·업데이트: 설치 필요 줄에서 Enter → 확인 카드 → 받기(진행 막대)·파일 확인 → dmg를 열어 응용 프로그램 폴더(쓸 수 없으면 내 응용 프로그램 폴더)에 놓는다. 받은 파일이 올린 것과 같은지 확인한 뒤 설치하고, 끝나면 받은 파일을 지운다.\n- ur 도구 자동 업데이트(도구가 꺼져 있을 때만, 저전력 모드·종량제에서는 쉼)·도구 목록 새로 받기(하루 한 번). 설정 › ur 도구에서 끌 수 있다.\n\n### 알아 둘 것 — macOS\n- 아직 Apple 서명·공증이 없다. 처음 열 때 우클릭 › 열기(또는 `xattr -cr /Applications/UrBuddy.app`)가 필요하다(README \"macOS 설치\").\n- 새 버전 알림은 아직 없다.",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrBuddy-0.1.3-mac-universal.dmg",
+          "size": 34062468,
+          "sha256": "6a656c91bb62b472cda50565663974ede316e8b8e27c1cfe2718caabf6f2810d",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.1.3/UrBuddy-0.1.3-mac-universal.dmg"
+        }
+      ]
+    },
     {
       "version": "0.1.2",
       "date": "2026-11-15",
