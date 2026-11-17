@@ -25,12 +25,11 @@
       "manifest": "releases/v1/ursnap.json"
     },
     "urzip": {
-      "latest": "0.1.2",
-      "date": "2026-11-17",
+      "latest": "0.1.3",
+      "date": "2026-11-18",
       "channel": "preview",
       "published": true,
       "platforms": [
-        "win",
         "mac"
       ],
       "manifest": "releases/v1/urzip.json"
