@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "ursnap",
-  "latest": "0.6.5",
+  "latest": "0.6.6",
   "releases": [
+    {
+      "version": "0.6.6",
+      "date": "2026-11-20",
+      "channel": "preview",
+      "published": true,
+      "notes": "### 고친 것\n- 고침 — AI 연결: 앱이 꺼져 있을 때 `ur`로 부르면 응답이 끝나지 않던 문제(Windows). 동봉 `ur`가 0.1.2로 바뀌었습니다.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrSnap-0.6.6-win-x64-setup.exe",
+          "size": 100718196,
+          "sha256": "faacac845a5d7ed63199a1bf4a72ee36cbc21738ee702707fc8c89dd18f8d019",
+          "url": "https://github.com/urstory/ur-releases/releases/download/ursnap-v0.6.6/UrSnap-0.6.6-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrSnap-0.6.6-win-x64-portable.zip",
+          "size": 137102303,
+          "sha256": "48325594edcfcbbeaa214f935ac7912fdabafc3ff8293141e0eb88c75343e25a",
+          "url": "https://github.com/urstory/ur-releases/releases/download/ursnap-v0.6.6/UrSnap-0.6.6-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.6.5",
       "date": "2026-11-20",
