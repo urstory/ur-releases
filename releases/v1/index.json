@@ -23,7 +23,7 @@
       "manifest": "releases/v1/ursnap.json"
     },
     "urzip": {
-      "latest": "0.1.4",
+      "latest": "0.1.5",
       "date": "2026-11-20",
       "channel": "preview",
       "published": true,

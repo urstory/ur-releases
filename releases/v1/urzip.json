@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urzip",
-  "latest": "0.1.4",
+  "latest": "0.1.5",
   "releases": [
+    {
+      "version": "0.1.5",
+      "date": "2026-11-20",
+      "channel": "preview",
+      "published": true,
+      "notes": "### 고침\n- AI 연결: 앱이 꺼져 있을 때 `ur`로 부르면 응답이 끝나지 않던 문제(Windows). 설치본에 들어 있는 `ur`가 0.1.2로 올라갔습니다.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrZip-0.1.5-win-x64-setup.exe",
+          "size": 29647670,
+          "sha256": "91f74c5ac8b859d44ddd41d0992e1a87dc3225ab1f37f1c743711838f488977b",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urzip-v0.1.5/UrZip-0.1.5-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrZip-0.1.5-win-x64-portable.zip",
+          "size": 21521944,
+          "sha256": "3f0f88246bf4b9765dfb60b52b2f95551db02fcef6c61745db9b621ae189a96b",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urzip-v0.1.5/UrZip-0.1.5-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.1.4",
       "date": "2026-11-20",
