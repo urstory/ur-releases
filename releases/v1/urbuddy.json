@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urbuddy",
-  "latest": "0.1.4",
+  "latest": "0.1.5",
   "releases": [
+    {
+      "version": "0.1.5",
+      "date": "2026-11-20",
+      "channel": "preview",
+      "published": true,
+      "notes": "### 바뀜\n- 명령 목록(Windows `Ctrl+K`, Mac `⌘K`)을 열면 아무것도 치지 않아도 \"AI·자동화로 쓰기\"가 한 줄 보입니다. Claude Code·Claude Desktop 연결·끊기는 \"MCP\"·\"연결\"처럼 글을 쳐서 찾을 때 나옵니다.\n- UrBuddy가 꺼져 있을 때 `ur`로 부르면 응답이 끝나지 않고 멈추던 Windows 문제를 고쳤습니다(동봉 `ur` 0.1.2).",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrBuddy-0.1.5-win-x64-setup.exe",
+          "size": 80112878,
+          "sha256": "afa07b822aab18fc10a8cdf6801e80dad511ea72d2fd25da8d644b44122e6283",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.1.5/UrBuddy-0.1.5-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrBuddy-0.1.5-win-x64-portable.zip",
+          "size": 110519918,
+          "sha256": "8c0bc4c5af035abaf6c28506893f57b9c47714e85bbdf3c7c8b3703e0a2aa05b",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.1.5/UrBuddy-0.1.5-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.1.4",
       "date": "2026-11-20",

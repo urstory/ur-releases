@@ -3,7 +3,7 @@
   "formatVersion": 1,
   "apps": {
     "urbuddy": {
-      "latest": "0.1.4",
+      "latest": "0.1.5",
       "date": "2026-11-20",
       "channel": "preview",
       "published": true,
