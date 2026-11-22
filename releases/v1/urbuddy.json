@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urbuddy",
-  "latest": "0.1.6",
+  "latest": "0.2.1",
   "releases": [
+    {
+      "version": "0.2.1",
+      "date": "2026-11-22",
+      "channel": "preview",
+      "published": true,
+      "notes": "Windows에 받아쓰기가 들어왔습니다(0.2.0과 0.2.1을 함께 냅니다. Mac은 0.1.6 그대로입니다). 개인·회사 모두 무료이고, 아직 코드 서명이 없어 처음 설치할 때 경고가 뜹니다(넘기는 법: https://urai.kr/apps/install-help).\n\n### 추가\n\n- **받아쓰기(Windows)**: 키(기본 `Ctrl+Space`)를 꾹 누르고 말한 뒤 떼면, 지금 쓰는 앱의 커서 자리에 글이 들어갑니다. 짧게 톡 누르면 켜지고 다시 톡 누르면 끝납니다. 듣는 중에 `Esc`를 누르면 취소됩니다.\n- 설정 › 받아쓰기에서 켭니다. 켤 때 음성 인식 파일(약 574MB)을 한 번 받습니다. 말소리와 글은 이 PC 밖으로 나가지 않습니다.\n- 듣는 동안 화면 아래에 작은 표시가 뜹니다. 글을 넣지 못했으면 까닭을 알려 주고, 받아쓴 글은 기록(최근 30개·3일)에 남아 다시 붙여넣을 수 있습니다.\n- **내 단어**: 자주 틀리는 낱말을 알려 주거나(\"UrBuddy\"), 받아쓴 뒤 바꿀 말(\"요 보디 → UrBuddy\")을 정할 수 있습니다.\n- 받아쓰기 키는 바꿀 수 있고, 오른쪽 Ctrl 같은 키 하나로도 정할 수 있습니다.\n- **런처 여는 키를 꾹 누르면 바로 말하기(Windows)**: 받아쓰기를 켜 두었다면 `Alt+Space`를 꾹 누른 채 말하고 손을 떼면, 런처가 뜨고 말한 글이 검색 칸에 들어갑니다. Enter는 직접 누릅니다. 짧게 누르면 지금처럼 런처만 뜹니다. 설정 › 받아쓰기에서 끌 수 있습니다.\n- 터미널에서는 글만 들어가고 명령이 실행되지 않습니다(끝에 Enter를 붙이지 않습니다).\n\n### 알아 둘 점\n\n- 그래픽 카드가 없는 PC에서는 받아쓰기가 느립니다.\n- 다듬기 키(`Ctrl+Shift+Space`)는 아직 받아쓰기 키와 똑같이 동작합니다.\n- 설치 파일이 약 6MB 커졌습니다(음성 인식 엔진이 들어 있습니다).",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrBuddy-0.2.1-win-x64-setup.exe",
+          "size": 86414943,
+          "sha256": "dc2bd50576eaa1ff702121b573f4d5adeb46f78185c6ff6ce01c4a4f53b5f156",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.2.1/UrBuddy-0.2.1-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrBuddy-0.2.1-win-x64-portable.zip",
+          "size": 126538260,
+          "sha256": "15f4d45e47e2bb23863f563161add8a878f12625d5eb4fe9f0d05049aafe4615",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.2.1/UrBuddy-0.2.1-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.1.6",
       "date": "2026-11-20",
