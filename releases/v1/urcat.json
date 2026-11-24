@@ -2,8 +2,26 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urcat",
-  "latest": "0.1.0",
+  "latest": "0.1.1",
   "releases": [
+    {
+      "version": "0.1.1",
+      "date": "2026-11-24",
+      "channel": "preview",
+      "published": true,
+      "notes": "고양이가 훨씬 고양이다워졌습니다. macOS 0.1.1 (Windows판은 만드는 중)\n\n### 새로 생긴 것\n- **쓰다듬기(클릭)**: 누르면 머리 위에 기분이 떠요(💗 ❓ 💦 ❗ 💢). 기분 좋을 땐 골골 꾹꾹이를 하거나 까만 배를 보이며 뒹굴고, 자꾸 건드리면 귀찮아하다가 냥냥펀치를 날리고, 등을 돌려 삐지거나 자리를 뜹니다.\n- **마우스**: 커서를 근처에 멈추면 달려와서 갸웃갸웃 쳐다보고, 코앞에서 알짱거리면 냥냥펀치를 합니다.\n- **하루 일과**: 아침 9시·낮 12시·저녁 6시에 밥을 먹고, 매시 정각과 30분에 물을 마시고, 하루 한 번 모래 화장실에 갑니다. 밤 11시부터 아침 7시까지는 거의 잡니다.\n- **그루밍과 놀이**: 세수, 옆구리 핥기, 뒷다리 들고 핥기, 정면에서 뒷다리를 V자로 벌리고 배 핥기. 가끔 앞돌기를 하는데 실패해서 꽈당 넘어지기도 합니다.\n- **알림 표정**: 말 끝이 `!`면 깜짝, `?`면 갸웃하며 묻기, `@`면 \"너 미쳤어?\" 얼굴. 고양이 소녀가 나타날 때 \"뾰로롱\" 소리가 납니다.\n- **메뉴 막대 아이콘**: 알림 소리 켜기·끄기, Mac을 켜면 자동으로 실행, 다운로드 사이트 열기, urCat이란?, 종료.\n\n### 바뀐 것\n- 고양이 소녀로는 알림이 왔을 때만 변신합니다.\n- 털 색을 캐릭터 시트대로 맞췄습니다(배까지 새까만 고양이).\n\n설치: 터미널에 `curl -fsSL https://urai.kr/apps/install.sh | sh -s urcat`\n자세한 내용은 https://urai.kr/apps/urcat",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrCat-0.1.1-mac-universal.dmg",
+          "size": 14716690,
+          "sha256": "3af61bde77e301a592bc96969112be3cbcf8d02ea1852ffa2dce7d2956c16832",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.1.1/UrCat-0.1.1-mac-universal.dmg"
+        }
+      ]
+    },
     {
       "version": "0.1.0",
       "date": "2026-11-24",
