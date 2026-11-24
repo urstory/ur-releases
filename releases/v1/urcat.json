@@ -2,8 +2,26 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urcat",
-  "latest": "0.1.2",
+  "latest": "0.2.0",
   "releases": [
+    {
+      "version": "0.2.0",
+      "date": "2026-11-25",
+      "channel": "preview",
+      "published": true,
+      "notes": "발표하거나 화면을 공유할 때 고양이를 잠깐 숨길 수 있습니다(Mac 0.2.0).\n\n### 새로 생긴 것\n- **숨기기**: 메뉴 막대 아이콘의 [잠깐 숨기기]나 고양이 오른쪽 클릭 메뉴의 [숨기기]에서 30분, 1시간, 4시간, 8시간, 다시 보이게 할 때까지 중 하나를 고릅니다.\n- 숨어 있는 동안에는 고양이와 말풍선, 밥그릇 같은 소품이 모두 사라집니다. 그사이 온 알림은 소리 없이 버리고, 나중에 모아서 보여 주지도 않습니다.\n- 고른 시간이 지나면 고양이가 저절로 다시 나타납니다. 그 전에 보려면 메뉴 막대에서 [지금 다시 보이기]를 누릅니다. 숨어 있는 동안에는 메뉴 막대 아이콘이 흐려지고, 메뉴에 언제까지 숨는지 나옵니다.\n- 숨긴 채로 urCat을 껐다 켜도 계속 숨어 있습니다.\n- 터미널에서는 `urcat hide 1h`로 숨기고 `urcat show`로 다시 부릅니다. 시간을 쓰지 않고 `urcat hide`만 하면 다시 부를 때까지 숨습니다.\n\n설치·업데이트: 터미널에 `curl -fsSL https://urai.kr/apps/install.sh | sh -s urcat`",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrCat-0.2.0-mac-universal.dmg",
+          "size": 14739270,
+          "sha256": "3896de5d87f532fc92d4a3b282c687ed6a4defa2d873d1505094adb1050df89e",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.0/UrCat-0.2.0-mac-universal.dmg"
+        }
+      ]
+    },
     {
       "version": "0.1.2",
       "date": "2026-11-24",
