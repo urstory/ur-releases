@@ -32,6 +32,16 @@
         "win"
       ],
       "manifest": "releases/v1/urzip.json"
+    },
+    "urcat": {
+      "latest": "0.1.0",
+      "date": "2026-11-24",
+      "channel": "preview",
+      "published": true,
+      "platforms": [
+        "mac"
+      ],
+      "manifest": "releases/v1/urcat.json"
     }
   }
 }

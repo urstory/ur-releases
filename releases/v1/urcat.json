@@ -1,0 +1,26 @@
+{
+  "format": "ur-releases",
+  "formatVersion": 1,
+  "app": "urcat",
+  "latest": "0.1.0",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-24",
+      "channel": "preview",
+      "published": true,
+      "notes": "첫 미리보기 버전입니다 — **macOS 0.1.0** (Windows판은 만드는 중).\n\n### 이 버전으로 할 수 있는 것\n- 까만 아기 고양이가 바탕화면에 와서 삽니다. 화면 바닥과 창 윗변을 걸어 다니고, 창 옆면을 타고 오르고, 세수·기지개·낮잠을 합니다. 가끔 뿅 하고 순간 이동합니다.\n- 고양이를 누르면 깜짝 놀라고, 끌어 들면 목덜미를 잡힌 채 매달렸다가 놓으면 사뿐히 내려앉습니다. 오른쪽 클릭 메뉴: 알림 시험·순간 이동·고양이 보내기.\n- **알림**: `urcat say \"할 말\"`을 실행하면 고양이 소녀로 변신해 말풍선으로 알려 줍니다. 여러 개면 줄을 세워 하나씩 말합니다.\n- **Claude Code 알림**: `urcat hooks install`로 한 번 켜 두면 작업이 끝나거나 권한 확인·입력이 필요할 때 프로젝트 이름과 함께 알려 주고, 말풍선을 누르면 그 터미널 탭(iTerm2·터미널, tmux)으로 갑니다.\n- `urcat autostart on`: 로그인할 때 자동으로 띄우기.\n\n설치: 터미널에 `curl -fsSL https://urai.kr/apps/install.sh | sh -s urcat` — 자세한 내용은 https://urai.kr/apps/urcat",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrCat-0.1.0-mac-universal.dmg",
+          "size": 7766107,
+          "sha256": "3917b1a736e751911fef30a7eb7acac5a96ba1eb84b02d9143fac08f6699d7c6",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.1.0/UrCat-0.1.0-mac-universal.dmg"
+        }
+      ]
+    }
+  ]
+}
