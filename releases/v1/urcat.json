@@ -2,8 +2,26 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urcat",
-  "latest": "0.1.1",
+  "latest": "0.1.2",
   "releases": [
+    {
+      "version": "0.1.2",
+      "date": "2026-11-24",
+      "channel": "preview",
+      "published": true,
+      "notes": "작은 고침 판입니다. macOS 0.1.2\n\n### 고친 것\n- 고양이를 집어 들었을 때와 떨어질 때 몸이 작아지던 문제를 고쳤습니다. 착지할 때도 크기가 자연스럽게 이어집니다.\n- 집어 들면 마우스가 목덜미에 오게 매달리는 위치를 맞췄습니다.\n\n설치·업데이트: 터미널에 `curl -fsSL https://urai.kr/apps/install.sh | sh -s urcat`",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrCat-0.1.2-mac-universal.dmg",
+          "size": 14716941,
+          "sha256": "3b19dfc5439fbd15fac1a3a45611f540a33339576939dda3e7b33e7940fa8d93",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.1.2/UrCat-0.1.2-mac-universal.dmg"
+        }
+      ]
+    },
     {
       "version": "0.1.1",
       "date": "2026-11-24",

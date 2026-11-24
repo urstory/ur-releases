@@ -34,7 +34,7 @@
       "manifest": "releases/v1/urzip.json"
     },
     "urcat": {
-      "latest": "0.1.1",
+      "latest": "0.1.2",
       "date": "2026-11-24",
       "channel": "preview",
       "published": true,
