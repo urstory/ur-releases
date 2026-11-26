@@ -2,8 +2,26 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "ursnap",
-  "latest": "0.6.7",
+  "latest": "0.6.8",
   "releases": [
+    {
+      "version": "0.6.8",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "맥판만 새 판입니다 — **macOS 0.6.8 · Windows 0.6.7**. 이 버전부터 UrSnap 안에서 새 버전을 알려 주고 단추 하나로 업데이트합니다. 이 버전은 내려받아 한 번 직접 설치해 주세요(응용 프로그램 폴더의 UrSnap을 바꿉니다). 그다음 버전부터는 앱이 알려 줍니다.\n\n### 새 기능\n- 추가 — 앱 안 업데이트: 새 버전이 나오면 홈 창 위쪽 띠와 메뉴 막대 아이콘 메뉴 맨 위 줄에 알립니다. [업데이트]를 누르면 새 버전을 받아 UrSnap을 닫고 응용 프로그램 폴더의 앱을 바꾼 뒤 다시 켭니다. [나중에]를 누르면 그 버전은 사흘 동안 알리지 않습니다. 받는 파일은 서명과 해시로 확인한 뒤에만 설치합니다. 녹화하는 동안에는 업데이트하지 않습니다.\n- 추가 — 설정 › 정보에 \"업데이트\" 카드: 새 버전 알림 켜기·끄기, 미리보기 버전도 받기, [지금 확인]. 명령 찾기(⌘K)에서도 \"새 버전 확인\"을 고를 수 있습니다.\n- 추가 — 명령 `update.state`·`update.check`·`update.apply`(AI 에이전트 API·명령줄 — Windows와 같습니다).\n- UrSnap을 내려받은 디스크 이미지 안이나 임시 위치에서 실행 중이면 자동으로 바꾸지 않고 \"앱을 응용 프로그램 폴더로 옮긴 뒤 다시 업데이트해 주세요\"라고 알립니다.\n\n### 바뀜(자동화)\n- `app.screenshot window`에 `camu`(AI·자동화로 쓰기 창)·`camuDialog`(AI 연결 끊기 확인 창)를 더했습니다(Windows 0.6.5와 같은 선택지).\n- 명령 170개 — 명령 문서가 Windows 0.6.7 문서와 글자까지 같습니다.",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrSnap-0.6.8-mac-universal.dmg",
+          "size": 27901759,
+          "sha256": "a661a9f5692ac5d0e546485abe85adcf25983455224826e2c9283bc715c2270f",
+          "url": "https://github.com/urstory/ur-releases/releases/download/ursnap-v0.6.8/UrSnap-0.6.8-mac-universal.dmg"
+        }
+      ]
+    },
     {
       "version": "0.6.7",
       "date": "2026-11-27",
