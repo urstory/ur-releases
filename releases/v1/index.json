@@ -13,6 +13,16 @@
       ],
       "manifest": "releases/v1/urbuddy.json"
     },
+    "urcat": {
+      "latest": "0.2.1",
+      "date": "2026-11-26",
+      "channel": "preview",
+      "published": true,
+      "platforms": [
+        "win"
+      ],
+      "manifest": "releases/v1/urcat.json"
+    },
     "ursnap": {
       "latest": "0.6.6",
       "date": "2026-11-20",
@@ -32,16 +42,6 @@
         "win"
       ],
       "manifest": "releases/v1/urzip.json"
-    },
-    "urcat": {
-      "latest": "0.2.0",
-      "date": "2026-11-25",
-      "channel": "preview",
-      "published": true,
-      "platforms": [
-        "mac"
-      ],
-      "manifest": "releases/v1/urcat.json"
     }
   }
 }

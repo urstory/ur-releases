@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urcat",
-  "latest": "0.2.0",
+  "latest": "0.2.1",
   "releases": [
+    {
+      "version": "0.2.1",
+      "date": "2026-11-26",
+      "channel": "preview",
+      "published": true,
+      "notes": "Windows에서도 고양이를 키울 수 있습니다(Windows 0.2.1, 첫 Windows 버전).\n\n### 새로 생긴 것\n- **Windows용 urCat**: Windows 10·11(64비트)에서 씁니다. Windows 11에서 확인했습니다.\n- 고양이는 맥용과 같습니다. 화면 바닥과 창 위를 걸어 다니고, 그루밍하고, 낮잠을 자고, 마우스를 보면 달려와 쳐다보고, 클릭하면 기분에 따라 좋아하거나 귀찮아합니다. 밥·물·화장실 일과도 같습니다.\n- 알림이 오면 고양이 소녀로 변신해 말풍선으로 알려 줍니다. 말끝이 `!`면 깜짝, `?`면 갸웃, `@`면 \"너 미쳤어?\" 얼굴입니다.\n- 작업 표시줄 오른쪽 알림 영역에 고양이 얼굴 아이콘이 생깁니다. 여기서 잠깐 숨기기, 알림 소리, Windows를 켜면 자동으로 실행을 켜고 끕니다.\n- 알림 보내기: `\"%LOCALAPPDATA%\\Programs\\UrCat\\urcat.exe\" say \"할 말\"`\n- Claude Code 작업 알림 켜기: `\"%LOCALAPPDATA%\\Programs\\UrCat\\urcat.exe\" hooks install`\n\n### 맥용과 다른 점\n- 노트북 터치패드로 고양이를 끌 때, 끄는 도중에 터치패드 눌림이 풀려도 떨어뜨리지 않습니다. 커서를 멈추면 그 자리에 내려놓습니다. 마우스를 쓴다면 알림 영역 아이콘 메뉴에서 이 동작을 끌 수 있고, 끄면 움직이면서 놓아 던질 수 있습니다.\n- Claude Code 알림의 말풍선을 누르면 그 터미널 창을 앞으로 가져옵니다. 탭까지 골라 주지는 못합니다.\n- 화면 맨 위에 가까운 창 위에도 올라갑니다. 이때 고양이 머리가 화면 위로 조금 잘려 보일 수 있습니다.\n\n### 설치\n- 설치 파일을 받아 실행합니다. \"Windows의 PC 보호\" 창이 뜨면 [추가 정보]를 누른 뒤 [실행]을 누릅니다.\n- 설치하지 않고 쓰려면 무설치 zip을 받아 풀고 `UrCat.App.exe`를 실행합니다.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrCat-0.2.1-win-x64-setup.exe",
+          "size": 73889078,
+          "sha256": "76c0fc5d0dee0ddec38ad9f24647698ac32e34dad61e6ab82ad0bf8621ad10b5",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.1/UrCat-0.2.1-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrCat-0.2.1-win-x64-portable.zip",
+          "size": 92518543,
+          "sha256": "2767859f48c6d73606eb7c4ff7315886ea87e9c7aab5b43a9832c2967464a439",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.1/UrCat-0.2.1-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.2.0",
       "date": "2026-11-25",
