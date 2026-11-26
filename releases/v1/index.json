@@ -24,8 +24,8 @@
       "manifest": "releases/v1/urcat.json"
     },
     "ursnap": {
-      "latest": "0.6.6",
-      "date": "2026-11-20",
+      "latest": "0.6.7",
+      "date": "2026-11-27",
       "channel": "preview",
       "published": true,
       "platforms": [

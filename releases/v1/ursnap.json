@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "ursnap",
-  "latest": "0.6.6",
+  "latest": "0.6.7",
   "releases": [
+    {
+      "version": "0.6.7",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "이 버전부터 UrSnap 안에서 새 버전을 알려 주고 단추 하나로 업데이트합니다. 이 버전은 내려받아 한 번 직접 설치해 주세요. 그다음 버전부터는 앱이 알려 줍니다.\n\n### 새 기능\n- 추가 — 앱 안 업데이트: 새 버전이 나오면 홈 창 위쪽 띠와 트레이 메뉴에 알립니다. [업데이트]를 누르면 새 버전을 받아 UrSnap을 닫고 설치한 뒤 다시 켭니다. [나중에]를 누르면 그 버전은 사흘 동안 알리지 않습니다. 받는 파일은 서명과 해시로 확인한 뒤에만 설치합니다.\n- 추가 — 설정 › 정보에 \"업데이트\" 카드: 새 버전 알림 켜기·끄기, 미리보기 버전도 받기, [지금 확인]. 명령 찾기(Ctrl+K)에서도 \"새 버전 확인\"을 고를 수 있습니다.\n- 추가 — 명령 `update.state`·`update.check`·`update.apply`(AI 에이전트 API·명령줄).\n- 무설치판(zip)은 새 버전을 알리기만 하고 [내려받기 페이지 열기]로 안내합니다.\n\n### 고친 것\n- 고침 — 홈 창을 닫아 트레이에 둔 채 노트북 뚜껑을 닫았다 열면 빈 UrSnap 창이 떠서 눌러도 반응하지 않던 문제. 숨겨 둔 창이 UrSnap을 거치지 않고 다시 보이면 바로 다시 숨깁니다.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrSnap-0.6.7-win-x64-setup.exe",
+          "size": 100921769,
+          "sha256": "4a557288ca662cff2b6a633315d61f98f17e9a5439ca95976e73d55418f2e083",
+          "url": "https://github.com/urstory/ur-releases/releases/download/ursnap-v0.6.7/UrSnap-0.6.7-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrSnap-0.6.7-win-x64-portable.zip",
+          "size": 137495128,
+          "sha256": "81008089a16467f5748fb37c51af59c951f093127a18a8ddd636386f4ba5fb82",
+          "url": "https://github.com/urstory/ur-releases/releases/download/ursnap-v0.6.7/UrSnap-0.6.7-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.6.6",
       "date": "2026-11-20",
