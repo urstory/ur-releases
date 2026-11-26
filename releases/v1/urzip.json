@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urzip",
-  "latest": "0.1.5",
+  "latest": "0.1.6",
   "releases": [
+    {
+      "version": "0.1.6",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "이 판부터 유어집 안에서 새 판을 알려 주고 단추 하나로 업데이트합니다. 이 판은 내려받아 한 번 직접 설치해 주세요. 그다음 판부터는 앱이 알려 줍니다.\n\n### 새 기능\n- **앱 안 업데이트**: 새 판이 나오면 보기 창 위쪽 띠에 알립니다. [업데이트]를 누르면 새 판을 받아 유어집을 닫고 설치한 뒤 다시 엽니다. 띠의 ✕를 누르면 그 판은 사흘 동안 알리지 않습니다. 받은 파일은 서명과 해시를 확인한 뒤에만 설치합니다. 풀기·만들기가 도는 동안은 [업데이트]를 누를 수 없습니다.\n- 업데이트할 때 처음 설치할 때 고른 것(설치 범위·폴더·탐색기 메뉴·파일 연결·AI 목록·시작 메뉴)을 그대로 따릅니다. 모든 사용자로 설치했으면 관리자 권한 확인이 한 번 뜹니다.\n- 무설치판(zip)은 새 판을 알리기만 하고 [받으러 가기]로 안내합니다.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrZip-0.1.6-win-x64-setup.exe",
+          "size": 30012355,
+          "sha256": "59ac5fb7d1322a411b282901bbf9011f9ef23155677377c5d7b2995bbbf32854",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urzip-v0.1.6/UrZip-0.1.6-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrZip-0.1.6-win-x64-portable.zip",
+          "size": 21884013,
+          "sha256": "f9ae8e142351e1ef6b1dfed77e44f620c4d6a0eda154dc4f793681859862b751",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urzip-v0.1.6/UrZip-0.1.6-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.1.5",
       "date": "2026-11-20",
