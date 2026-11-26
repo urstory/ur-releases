@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urbuddy",
-  "latest": "0.2.1",
+  "latest": "0.2.2",
   "releases": [
+    {
+      "version": "0.2.2",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "이 버전부터 UrBuddy 안에서 새 버전을 알려 주고 단추 하나로 업데이트합니다. 이 버전은 내려받아 한 번 직접 설치해 주세요. 그다음 버전부터는 앱이 알려 줍니다.\n\n### 추가\n\n- **앱 안 업데이트(Windows)**: 새 버전이 나오면 런처를 열 때 아래쪽 안내 카드와 트레이 메뉴에 알려요. [업데이트]를 누르면 새 버전을 받아 UrBuddy를 닫고 설치한 뒤 다시 켜요. [나중에]를 누르면 그 버전은 사흘 동안 알리지 않아요. 받은 파일은 서명과 해시를 확인한 뒤에만 설치해요.\n- 업데이트할 때 설치 때 고른 것(Windows 시작 때 실행·명령줄에서 urbuddy 쓰기)을 그대로 따라요.\n- 설정 › 정보에 업데이트 카드: 새 버전 알림 켜기·끄기, 미리보기 버전도 받기, [지금 확인].\n- 명령 `update.state`·`update.check`·`update.apply`(AI 에이전트 API·명령줄).\n- 무설치판(zip)은 새 버전을 알리기만 하고 [내려받기 페이지 열기]로 안내해요.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrBuddy-0.2.2-win-x64-setup.exe",
+          "size": 86593554,
+          "sha256": "b0bf374ba3463db00d95512525c8cdd3eafd054670acc15840f1ed1d02452817",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.2.2/UrBuddy-0.2.2-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrBuddy-0.2.2-win-x64-portable.zip",
+          "size": 126901305,
+          "sha256": "3833fa1296c228fca4c5618e331d2c3f28479e4d5943bbbeb94af35eebd35334",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.2.2/UrBuddy-0.2.2-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.2.1",
       "date": "2026-11-22",
