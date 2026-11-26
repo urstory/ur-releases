@@ -13,3 +13,7 @@
 *.otf  binary
 *.woff binary
 *.woff2 binary
+
+# 서명하는 버전 파일은 바이트 그대로 둔다(줄바꿈 변환 금지, 서명이 깨지지 않게)
+releases/v1/*.json -text
+releases/v1/*.sig  -text
