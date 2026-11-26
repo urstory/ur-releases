@@ -14,7 +14,7 @@
       "manifest": "releases/v1/urbuddy.json"
     },
     "urcat": {
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "date": "2026-11-26",
       "channel": "preview",
       "published": true,
