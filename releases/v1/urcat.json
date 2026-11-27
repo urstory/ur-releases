@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urcat",
-  "latest": "0.2.2",
+  "latest": "0.2.5",
   "releases": [
+    {
+      "version": "0.2.5",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "이 버전부터 urCat 안에서 새 버전을 알려 주고 메뉴 한 번으로 업데이트합니다. 이 버전은 내려받아 한 번 직접 설치해 주세요. 그다음 버전부터는 고양이가 알려 줍니다.\n\n### 추가\n\n- **앱 안 업데이트(Windows)**: 새 버전이 나오면 고양이가 말풍선으로 한 번 알려 주고, 알림 영역 메뉴 맨 위에 [새 버전으로 업데이트]가 생겨요. 누르면 새 버전을 받아 고양이를 보내고 설치한 뒤 다시 불러요. 받은 파일은 서명과 해시를 확인한 뒤에만 설치해요.\n- 알림 영역 메뉴의 \"업데이트\" 묶음: 지금 버전, 지금 확인, 새 버전이 나오면 알리기, 미리보기 버전도 받기, 바뀐 내용, 나중에(사흘 동안 알리지 않기).\n- 명령 `urcat update [state|check --force|apply|later]`.\n- 무설치판(zip)은 새 버전을 알리기만 하고 내려받기 페이지로 안내해요.\n\n### 고침\n\n- 배율이 다른 모니터(예: 150%와 100%)를 함께 쓸 때 고양이가 바닥에서 떠 있거나 모니터 경계에 걸리던 것을 고쳤어요(0.2.3).\n- 고양이 크기가 발이 놓인 모니터의 배율을 따라요. 100% 모니터에서 고양이가 너무 크게 보이던 것을 고쳤어요(0.2.4).",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrCat-0.2.5-win-x64-setup.exe",
+          "size": 62833968,
+          "sha256": "333cbe87f8684c1f74b4a22a9d13a5074e09c494521661c90cec73c5a78ca254",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.5/UrCat-0.2.5-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrCat-0.2.5-win-x64-portable.zip",
+          "size": 81415272,
+          "sha256": "abead57b4ed4f73e152d7900a86e4c2e95e8a256edb3710d481922b24384eb93",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.5/UrCat-0.2.5-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.2.2",
       "date": "2026-11-26",
