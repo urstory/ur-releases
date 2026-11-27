@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "ursnap",
-  "latest": "0.6.8",
+  "latest": "0.6.9",
   "releases": [
+    {
+      "version": "0.6.9",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "### 고침\n- UrSnap이 켜져 있는 채로 설치 프로그램을 실행하면 \"UrSnap.exe 파일을 쓸 수 없습니다\"가 뜨고 설치가 멈추던 문제를 고쳤어요. 이제 설치 프로그램이 켜져 있던 UrSnap을 닫고 설치를 이어 가요. 그 창의 [다시 시도]도 UrSnap을 다시 닫아 본 뒤 설치해요.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrSnap-0.6.9-win-x64-setup.exe",
+          "size": 100962468,
+          "sha256": "ec390293fcdc705e781cb1c835a918b51e197c1dfcdf36a387be3116e268d957",
+          "url": "https://github.com/urstory/ur-releases/releases/download/ursnap-v0.6.9/UrSnap-0.6.9-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrSnap-0.6.9-win-x64-portable.zip",
+          "size": 137497433,
+          "sha256": "01c229161d7f64cf3487be2b721f84b4a4604464a657b9ccde077f90aed3f1ad",
+          "url": "https://github.com/urstory/ur-releases/releases/download/ursnap-v0.6.9/UrSnap-0.6.9-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.6.8",
       "date": "2026-11-27",

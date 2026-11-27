@@ -23,12 +23,12 @@
       "manifest": "releases/v1/urcat.json"
     },
     "ursnap": {
-      "latest": "0.6.8",
+      "latest": "0.6.9",
       "date": "2026-11-27",
       "channel": "preview",
       "published": true,
       "platforms": [
-        "mac"
+        "win"
       ],
       "manifest": "releases/v1/ursnap.json"
     },
