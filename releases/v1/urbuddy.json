@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urbuddy",
-  "latest": "0.2.2",
+  "latest": "0.2.3",
   "releases": [
+    {
+      "version": "0.2.3",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "이 버전부터 Mac에서도 UrBuddy 안에서 새 버전을 알려 주고 단추 하나로 업데이트합니다. 이 버전은 내려받아 한 번 직접 설치해 주세요. 그다음 버전부터는 앱이 알려 줍니다(Mac은 0.2.1 다음이 0.2.3 — 0.2.2는 Windows가 썼습니다).\n\n### 추가\n\n- **앱 안 업데이트(Mac)**: 새 버전이 나오면 런처를 열 때 위쪽 안내 카드와 메뉴 막대 메뉴 맨 위에 알려요. [업데이트]를 누르면 새 버전을 받아 UrBuddy를 닫고 응용 프로그램 폴더의 앱을 바꾼 뒤 다시 켜요. [나중에]를 누르면 그 버전은 사흘 동안 알리지 않아요. 받은 파일은 서명과 해시를 확인한 뒤에만 바꿔요.\n- 설정 › 정보에 업데이트 카드: 새 버전 알림 켜기·끄기, 미리보기 버전도 받기, [지금 확인].\n- 명령 `update.state`·`update.check`·`update.apply`(AI 에이전트 API·명령줄).",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrBuddy-0.2.3-mac-universal.dmg",
+          "size": 38994478,
+          "sha256": "43a24b311b60fadd0bd47cd20db9382620d2475eb2eab77bd8249500f8698560",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.2.3/UrBuddy-0.2.3-mac-universal.dmg"
+        },
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "zip",
+          "name": "UrBuddy-0.2.3-mac-universal.zip",
+          "size": 35892302,
+          "sha256": "8d69e05e1c7003da5a64abeec493118a3c854679b6672b5baca5f39a654b06ce",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.2.3/UrBuddy-0.2.3-mac-universal.zip"
+        }
+      ]
+    },
     {
       "version": "0.2.2",
       "date": "2026-11-27",
