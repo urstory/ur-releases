@@ -3,12 +3,12 @@
   "formatVersion": 1,
   "apps": {
     "urbuddy": {
-      "latest": "0.2.3",
+      "latest": "0.2.4",
       "date": "2026-11-27",
       "channel": "preview",
       "published": true,
       "platforms": [
-        "mac"
+        "win"
       ],
       "manifest": "releases/v1/urbuddy.json"
     },

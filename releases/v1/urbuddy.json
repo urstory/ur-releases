@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urbuddy",
-  "latest": "0.2.3",
+  "latest": "0.2.4",
   "releases": [
+    {
+      "version": "0.2.4",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "### 추가\n\n- **받아쓰기를 켜기 전에 이 PC에서 빠를지 알려 줘요(Windows)**: 설정 › 받아쓰기에서 이 PC에 받아쓰기에 쓸 그래픽 카드가 있는지 보고, 있으면 \"그래픽 카드(이름)로 받아 적어서 빨라요\", 내장 그래픽만 있거나 그래픽 카드가 없으면 \"10초 말하면 10초 넘게 기다릴 수 있어요\"라고 미리 알려 줘요. 권장 사양(NVIDIA·AMD 그래픽 카드, 그래픽 메모리 2GB 이상)도 함께 보여요. 받아쓰기를 켠 뒤에도 \"이 PC에서\" 줄에서 볼 수 있어요.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrBuddy-0.2.4-win-x64-setup.exe",
+          "size": 86606151,
+          "sha256": "187ed1c19c5e0e3e30b32a2a17c39fc8aacf79d3ce63d07367f13ca66dc992f4",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.2.4/UrBuddy-0.2.4-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrBuddy-0.2.4-win-x64-portable.zip",
+          "size": 126910672,
+          "sha256": "12d44f8f440ccaf2415a3460ced0ac05350e487fe133309761fe413d1b39a6e4",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urbuddy-v0.2.4/UrBuddy-0.2.4-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.2.3",
       "date": "2026-11-27",
