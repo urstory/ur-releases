@@ -2,8 +2,26 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urcat",
-  "latest": "0.2.5",
+  "latest": "0.2.6",
   "releases": [
+    {
+      "version": "0.2.6",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "이 버전부터 Mac에서도 urCat 안에서 새 버전을 알려 주고 메뉴 한 번으로 업데이트합니다. 이 버전은 내려받아 한 번 직접 설치해 주세요. 그다음 버전부터는 고양이가 알려 줍니다(Mac은 0.2.0 다음이 0.2.6 — 사이 번호는 Windows가 썼습니다).\n\n### 추가\n\n- **앱 안 업데이트(Mac)**: 새 버전이 나오면 고양이가 말풍선으로 한 번 알려 주고, 메뉴 막대의 고양이 메뉴 맨 위에 [새 버전으로 업데이트]가 생겨요. 누르면 새 버전을 받아 고양이를 보내고 응용 프로그램 폴더의 앱을 바꾼 뒤 다시 불러요. 받은 파일은 서명과 해시를 확인한 뒤에만 바꿔요.\n- 메뉴의 \"업데이트\" 묶음: 지금 버전, 지금 확인, 새 버전이 나오면 알리기, 미리보기 버전도 받기, 바뀐 내용, 나중에(사흘 동안 알리지 않기).\n- 명령 `urcat update [state|check --force|apply|later]`.\n\n### 고침\n\n- \"urCat이란?\" 창의 만든 사람 표시를 다른 ur 앱과 같게 바꿨어요.",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrCat-0.2.6-mac-universal.dmg",
+          "size": 15654223,
+          "sha256": "626109152074f4ed7bb589c966ff460a5f5b42a5a968439ad553a44c36a60174",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.6/UrCat-0.2.6-mac-universal.dmg"
+        }
+      ]
+    },
     {
       "version": "0.2.5",
       "date": "2026-11-27",
