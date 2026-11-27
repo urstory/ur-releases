@@ -2,8 +2,26 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urcat",
-  "latest": "0.2.7",
+  "latest": "0.2.8",
   "releases": [
+    {
+      "version": "0.2.8",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "### 고침\n\n- 최대화한 창 위에 고양이를 놓으면 멀리 튕겨 다른 모니터로 날아가던 문제를 고쳤어요. 이제 놓은 자리 아래쪽에 내려앉아요.\n- 모니터가 하나이고 지금 쓰는 창이 화면을 거의 다 덮고 있으면 고양이 머리 위에 \"!\"가 계속 뜨던 문제를 고쳤어요.",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrCat-0.2.8-mac-universal.dmg",
+          "size": 15657920,
+          "sha256": "3f3acf470ec963f7f99c1dd4605cb05b72e6e5e5c29427f54302d1a00f69d6e5",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.8/UrCat-0.2.8-mac-universal.dmg"
+        }
+      ]
+    },
     {
       "version": "0.2.7",
       "date": "2026-11-27",
