@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urzip",
-  "latest": "0.1.6",
+  "latest": "0.1.7",
   "releases": [
+    {
+      "version": "0.1.7",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "이 판부터 Mac에서도 유어집 안에서 새 판을 알려 주고 단추 하나로 업데이트합니다. 이 판은 내려받아 한 번 직접 설치해 주세요. 그다음 판부터는 앱이 알려 줍니다.\n\n### 새 기능\n- **앱 안 업데이트(Mac)**: 새 판이 나오면 보기 창 위쪽 띠에 알립니다. [업데이트]를 누르면 새 판을 받아 유어집을 닫고 응용 프로그램 폴더의 앱을 바꾼 뒤 다시 엽니다. 띠의 ✕를 누르면 그 판은 사흘 동안 알리지 않습니다. 받은 파일은 서명과 해시를 확인한 뒤에만 바꿉니다. 풀기·만들기가 도는 동안은 [업데이트]를 누를 수 없습니다.\n- 정보 창에도 새 판 줄이 보입니다.",
+      "files": [
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "dmg",
+          "name": "UrZip-0.1.7-mac-universal.dmg",
+          "size": 33678286,
+          "sha256": "c63c76e9d6710a852ebb87f0216e129e6a2b2edcab4159c1029e5c13568dab83",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urzip-v0.1.7/UrZip-0.1.7-mac-universal.dmg"
+        },
+        {
+          "os": "mac",
+          "arch": "universal",
+          "kind": "zip",
+          "name": "UrZip-0.1.7-mac-universal.zip",
+          "size": 32222478,
+          "sha256": "f6b8b04e4acbf7394e91a4a925563452311022bc6f3d32863ae56bbfda54acce",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urzip-v0.1.7/UrZip-0.1.7-mac-universal.zip"
+        }
+      ]
+    },
     {
       "version": "0.1.6",
       "date": "2026-11-27",
