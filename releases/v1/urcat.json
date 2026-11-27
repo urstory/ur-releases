@@ -2,8 +2,35 @@
   "format": "ur-releases",
   "formatVersion": 1,
   "app": "urcat",
-  "latest": "0.2.6",
+  "latest": "0.2.7",
   "releases": [
+    {
+      "version": "0.2.7",
+      "date": "2026-11-27",
+      "channel": "preview",
+      "published": true,
+      "notes": "### 고침\n\n- 최대화한 창 위에 고양이를 놓으면 멀리 튕겨 다른 모니터로 날아가던 문제를 고쳤어요. 이제 놓은 자리 아래쪽에 내려앉아요.\n- 모니터가 하나이고 지금 쓰는 창이 화면을 거의 다 덮고 있으면 고양이 머리 위에 \"!\"가 계속 뜨던 문제를 고쳤어요.",
+      "files": [
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "setup",
+          "name": "UrCat-0.2.7-win-x64-setup.exe",
+          "size": 62840670,
+          "sha256": "5a7a7e8c66a544176a1d042b9aaad0dbfa2717b80c64b0d996a7cee2daf6df43",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.7/UrCat-0.2.7-win-x64-setup.exe"
+        },
+        {
+          "os": "win",
+          "arch": "x64",
+          "kind": "portable",
+          "name": "UrCat-0.2.7-win-x64-portable.zip",
+          "size": 81416396,
+          "sha256": "7fe775f2f615ae752d235e1b49206b01bd215af99ffb08e7542c079b6f4955a9",
+          "url": "https://github.com/urstory/ur-releases/releases/download/urcat-v0.2.7/UrCat-0.2.7-win-x64-portable.zip"
+        }
+      ]
+    },
     {
       "version": "0.2.6",
       "date": "2026-11-27",
