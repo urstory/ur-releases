@@ -13,12 +13,13 @@
       "manifest": "releases/v1/urbuddy.json"
     },
     "urcat": {
-      "latest": "0.3.1",
+      "latest": "0.6.0",
       "date": "2026-11-28",
-      "channel": "preview",
+      "channel": "stable",
       "published": true,
       "platforms": [
-        "mac"
+        "mac",
+        "win"
       ],
       "manifest": "releases/v1/urcat.json"
     },
